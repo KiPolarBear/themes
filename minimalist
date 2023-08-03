@@ -244,6 +244,8 @@ topDesc {
   border-radius: 0px var(--top-height) var(--top-height) 0px; /* round right corners, leave left corners pointed. the rounding value will be the same as --top-height. */
 }
 .name {
+  min-width: 200px;
+  max-width: 500px;
   position: relative;
   display: flex;
   flex-flow: column wrap;
@@ -279,10 +281,6 @@ ul.tags {
     color: var(--lightmode-DarkAccent);
   }
 
-
-
-  
-
 ul.prefs {
   list-style-type: none;
 }
@@ -302,8 +300,6 @@ ul.prefs {
 
   }
 
-
-  
 bottom {
   width: var(--container-width);
   height: 400px;
@@ -452,12 +448,12 @@ elsewhere a {
   </photoBox>
    
   <topDesc>
-    <div class="name"><h1>kiwi</h1></div>
+    <div class="name"><h1>yelena belova</h1></div>
     <div class="links">
       <a title="dark mode" id="darkTitle"><i onclick="darkmode()" id="icon" class="fa-regular fa-moon darkmodeAnimation"></i></a>
       <a href="/" title="home"><i class="fa-solid fa-house"></i></a>
-      <a href="/ask" title="ask"><i class="fa-regular fa-envelope"></i></a>
-      <a href="/treasure-map" title="navigation"><i class="fa-regular fa-compass"></i></a>
+      <a href="/" title="ask"><i class="fa-regular fa-envelope"></i></a>
+      <a href="/" title="navigation"><i class="fa-regular fa-compass"></i></a>
     </div>
   </topDesc>
 </top>
@@ -467,12 +463,12 @@ elsewhere a {
   <div class="box1">
     <h2>details</h2>
     <div class="description">
-      <p>hi i'm kiwi :)</p>
-      <p>23, lesbian, many hyperfixations</p>
+      <p>lover of vests with pockets</p>
+      <p>mom to fanny, wife to kate</p>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fa-regular fa-sun"></i></span>cancer</li>
-        <li><span class="fa-li"><i class="fa-regular fa-moon"></i></span>aries</li>
-        <li><span class="fa-li"><i class="fa-solid fa-arrow-up"></i></span>virgo</li>
+        <li><span class="fa-li"><i class="fa-regular fa-sun"></i></span>leo</li>
+        <li><span class="fa-li"><i class="fa-regular fa-moon"></i></span>cancer</li>
+        <li><span class="fa-li"><i class="fa-solid fa-arrow-up"></i></span>aries</li>
       </ul>
     </div>
   </div>
@@ -483,10 +479,10 @@ elsewhere a {
     <h2>quick nav</h2>
     <div class="descriptionSmall">
       <ul class="tags">
-        <li><a href="/tagged/yellowjackets">yellowjackets</a></li>
-        <li><a href="/tagged/warrior%20nun">warrior nun</a></li>
-        <li><a href="/tagged/mumbles">mumbles</a></li>
-        <li><a href="/tagged/important">important</a></li>
+        <li><a href="/"></a></li>
+        <li><a href="/"></a></li>
+        <li><a href="/"></a></li>
+        <li><a href="/"></a></li>
       </ul>
       
     </div>
@@ -500,10 +496,10 @@ elsewhere a {
     <h2>preferences</h2>
     <div class="descriptionSmall">
       <ul class="prefs">
-        <div class="love"><li>harry styles</li></div>
-        <div class="love"><li>nighttime</li></div>
-        <div class="hate"><li>migraines</li></div>
-        <div class="hate"><li>lemons</li></div>
+        <div class="love"><li>dogs</li></div>
+        <div class="love"><li>macaroni w hot sauce</li></div>
+        <div class="hate"><li>posers</li></div>
+        <div class="hate"><li>instructions</li></div>
       </ul>
     </div>
   </div>
@@ -514,22 +510,22 @@ elsewhere a {
 
     <skillsbox>
     <div class="skills">
-      <p>coding</p>
-      <div class="progressbar">
-        <div class="progressbar-fill" style="width: 30%"></div>
-      </div>
-    </div>
-      <!-- this whole line is ONE progress bar. change where it says the width % to change the bar fill -->
-    <div class="skills">
-      <p>not sleeping</p>
+      <p>kali</p>
       <div class="progressbar">
         <div class="progressbar-fill" style="width: 95%"></div>
       </div>
     </div>
+      <!-- this whole line is ONE progress bar. change where it says the width % to change the bar fill -->
     <div class="skills">
-    <p>anger management</p>
+      <p>espionage</p>
       <div class="progressbar">
-        <div class="progressbar-fill" style="width: 10%"></div>
+        <div class="progressbar-fill" style="width: 80%"></div>
+      </div>
+    </div>
+    <div class="skills">
+    <p>sarcasm</p>
+      <div class="progressbar">
+        <div class="progressbar-fill" style="width: 100%"></div>
       </div>
     </div>
   </skillsbox>
@@ -539,13 +535,14 @@ elsewhere a {
       
 
   <!-- elsewhere -->
+    <!-- use this section to put any external links/socials you want! use font awesome to change out any icons or use an image! -->
   <div class="box1">
     <h2>elsewhere</h2>
     <elsewhere>
-      <a href="cultleaderlottie.tumblr.com" title="blog title"><img src="https://64.media.tumblr.com/a63e809d055f41db59382c1831f183a8/462158da64939cd3-1b/s1280x1920/762d46aa1e9b77211a2c45537b5b8165ac35bbd6.png" class="affiliate"></i></a>
-      <a href="cultleaderlottie.tumblr.com" title="blog title"><img src="https://64.media.tumblr.com/a63e809d055f41db59382c1831f183a8/462158da64939cd3-1b/s1280x1920/762d46aa1e9b77211a2c45537b5b8165ac35bbd6.png" class="affiliate"></i></a>
-      <a href="LINK" title="elsewhere"><i class="fa-brands fa-xbox"></i></a>
-      <a href="LINK" title="elsewhere"><i class="fa-brands fa-github"></i></a>
+      <a href="/" title="blog title"><img src="https://64.media.tumblr.com/763d595571f30f80290b753ee5565f81/a3b531f74ec03ccb-10/s1280x1920/736240c0cf25a81f8ad07dd7a5d93621c4133aea.png" class="affiliate"></i></a>
+      <a href="/" title="blog title"><img src="https://64.media.tumblr.com/5af662bc877e4c4c4f0cb30853a62b99/39761a2bc4fd830b-db/s1280x1920/655a9080306e00c55461c6e46a69fc706e4b404b.jpg" class="affiliate"></i></a>
+      <a href="/" title="elsewhere"><i class="fa-brands fa-xbox"></i></a>
+      <a href="/" title="elsewhere"><i class="fa-brands fa-github"></i></a>
     </elsewhere>
   </div>
 
