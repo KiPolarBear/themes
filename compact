@@ -137,15 +137,12 @@ credit {
 
 /* main containers */
 main {
-  width: 100%;
-  min-height: 800px;
-  max-height: 850px;
-  
-  position: relative;
+  width: 100vh;
+  height: 100vh;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 container {
   width: var(--container-width);
